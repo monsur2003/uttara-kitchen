@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Roboto&display=swap');
+:root{
+    --Roboto: 'Roboto', sans-serif;
+    --comic: 'Comic Neue', cursive;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #ffff !important;
+}
+header{
+    margin: 0;
+    padding: 0;
+}
+.header-title{
+    background-color: blue;
+    padding-left: 8px;
+}
+.header-title:hover{
+    font-size: 50px;
+}
+.header-banner{
+    background-image: url(/images/Pizza\ wallpaper.jpg);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.5;
+}
+.header-banner:hover{
+    background-image:linear-gradient(90deg,#0a0ab460,#00000041,#c9158457), url(/images/Pizza\ wallpaper.jpg);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity:1;
+
+}
+.banner-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    color: rgb(255, 255, 255);
+}
+.banner-title{
+    font-size: 80px;
+    font-family: var(--Roboto);
+}
+.banner-dis{
+    font-size: 30px;
+}
+.container{
+    /* border: 1px solid red; */
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #808080;
+    border-radius: 15px;
+    box-shadow: 5px 10px 10px #00000065;
+    
+}
+.container:hover{
+    background: linear-gradient(90deg,#741774c4,#070766a4,#055831b4);
+}
+.card-img{
+    width: 250px;
+    height: 220px;
+    border-radius: 50%;
+}
+.card-section{
+    width: 80%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.card-title{
+    text-align: center;
+    color: #ffff;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    font-size: 30px;
+    
+}
+.card-text{
+    font-family: var(--comic);
+    font-size: 16px;
+}
